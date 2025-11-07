@@ -618,14 +618,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature-card {
   background: white;
-  border: 1px solid rgba(107, 142, 95, 0.2);
+  border: 1px solid rgba(217, 119, 6, 0.2);
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 32px rgba(45, 80, 22, 0.15);
+  box-shadow: 0 12px 32px rgba(217, 119, 6, 0.15);
 }
 
 .feature-card-content {
