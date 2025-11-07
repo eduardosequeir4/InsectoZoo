@@ -1127,7 +1127,7 @@ h1, h2, h3, h4, h5, h6 {
    FOOTER
    ============================================ */
 .site-footer {
-  background: linear-gradient(135deg, var(--nature-green) 0%, var(--forest-green) 100%);
+  background: linear-gradient(135deg, var(--saffron-deep) 0%, var(--saffron-orange) 100%);
   color: white;
   padding: 4rem 0 2rem;
   margin-top: 6rem;
