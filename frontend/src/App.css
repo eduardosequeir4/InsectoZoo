@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .learn-more-button {
   background: rgba(255, 255, 255, 0.95);
-  color: var(--nature-green);
+  color: var(--saffron-deep);
   font-weight: 600;
   padding: 1.5rem 2.5rem;
   border: 2px solid white;
