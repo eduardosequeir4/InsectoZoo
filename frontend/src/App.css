@@ -97,19 +97,19 @@ h1, h2, h3, h4, h5, h6 {
 .logo-icon {
   width: 32px;
   height: 32px;
-  color: var(--forest-green);
+  color: var(--saffron-orange);
   transition: color 0.3s ease;
 }
 
 .logo-link:hover .logo-icon {
-  color: var(--nature-green);
+  color: var(--saffron-deep);
 }
 
 .logo-text {
   font-family: 'Crimson Pro', serif;
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--nature-green);
+  color: var(--saffron-deep);
 }
 
 .desktop-nav {
