@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 .species-icon-wrapper {
   width: 72px;
   height: 72px;
-  background: linear-gradient(135deg, var(--light-sage), var(--sage-green));
+  background: linear-gradient(135deg, var(--golden-yellow), var(--saffron-orange));
   border-radius: 16px;
   display: flex;
   align-items: center;
