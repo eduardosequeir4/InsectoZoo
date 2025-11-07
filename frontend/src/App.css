@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
 /* CTA Section */
 .cta-section {
   padding: 6rem 0;
-  background: linear-gradient(135deg, var(--forest-green) 0%, var(--sage-green) 100%);
+  background: linear-gradient(135deg, var(--saffron-orange) 0%, var(--warm-amber) 100%);
   position: relative;
   overflow: hidden;
 }
