@@ -134,12 +134,12 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--forest-green);
+  background: var(--saffron-orange);
   transition: width 0.3s ease;
 }
 
 .nav-link:hover {
-  color: var(--forest-green);
+  color: var(--saffron-orange);
 }
 
 .nav-link:hover::after,
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link.active {
-  color: var(--forest-green);
+  color: var(--saffron-orange);
   font-weight: 600;
 }
 
