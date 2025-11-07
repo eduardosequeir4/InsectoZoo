@@ -462,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(45, 80, 22, 0.85), transparent 60%);
+  background: linear-gradient(to top, rgba(217, 119, 6, 0.85), transparent 60%);
   display: flex;
   align-items: flex-end;
   padding: 1.5rem;
@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gallery-item:hover .gallery-overlay {
-  background: linear-gradient(to top, rgba(45, 80, 22, 0.75), transparent 60%);
+  background: linear-gradient(to top, rgba(217, 119, 6, 0.75), transparent 60%);
 }
 
 .gallery-label {
