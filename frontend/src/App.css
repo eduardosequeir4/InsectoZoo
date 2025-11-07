@@ -1052,7 +1052,7 @@ h1, h2, h3, h4, h5, h6 {
 .form-input,
 .form-textarea {
   padding: 0.875rem 1rem;
-  border: 1px solid rgba(107, 142, 95, 0.3);
+  border: 1px solid rgba(217, 119, 6, 0.3);
   border-radius: 8px;
   font-size: 1rem;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
@@ -1061,8 +1061,8 @@ h1, h2, h3, h4, h5, h6 {
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-color: var(--forest-green);
-  box-shadow: 0 0 0 3px rgba(107, 142, 95, 0.1);
+  border-color: var(--saffron-orange);
+  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.1);
 }
 
 .form-submit-button {
