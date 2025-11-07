@@ -794,7 +794,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery-card {
   background: white;
-  border: 1px solid rgba(107, 142, 95, 0.2);
+  border: 1px solid rgba(217, 119, 6, 0.2);
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
@@ -803,7 +803,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 32px rgba(45, 80, 22, 0.2);
+  box-shadow: 0 12px 32px rgba(217, 119, 6, 0.2);
 }
 
 .gallery-card-image-wrapper {
