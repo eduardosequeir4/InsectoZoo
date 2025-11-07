@@ -762,7 +762,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.75rem 1.75rem;
   background: white;
   color: var(--text-dark);
-  border: 1px solid rgba(107, 142, 95, 0.3);
+  border: 1px solid rgba(217, 119, 6, 0.3);
   border-radius: 24px;
   font-weight: 500;
   cursor: pointer;
@@ -770,16 +770,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .filter-button:hover {
-  background: var(--light-sage);
+  background: var(--light-amber);
   color: white;
-  border-color: var(--sage-green);
+  border-color: var(--warm-amber);
   transform: translateY(-2px);
 }
 
 .filter-button.active {
-  background: var(--forest-green);
+  background: var(--saffron-orange);
   color: white;
-  border-color: var(--forest-green);
+  border-color: var(--saffron-orange);
 }
 
 .gallery-grid-section {
