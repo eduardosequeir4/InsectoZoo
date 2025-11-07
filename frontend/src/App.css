@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--sage-green) 0%, var(--light-sage) 100%);
+  background: linear-gradient(135deg, var(--warm-amber) 0%, var(--golden-yellow) 100%);
   overflow: hidden;
   margin-top: 80px;
 }
