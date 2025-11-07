@@ -5,23 +5,24 @@
 /* Custom Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* Root Variables - Earthy, Nature-Inspired Palette */
+/* Root Variables - Saffron & Warm Tones Palette */
 :root {
-  --nature-green: #2d5016;
-  --forest-green: #3d6b2a;
-  --sage-green: #6b8e5f;
-  --light-sage: #a8c69f;
-  --cream: #f5f1e8;
-  --warm-sand: #e8dcc4;
-  --earth-brown: #6b4423;
-  --soft-brown: #8b6f47;
-  --terracotta: #c17456;
-  --moss: #7a9d54;
-  --slate: #4a5759;
-  --off-white: #fafaf7;
-  --text-dark: #2a2a2a;
-  --text-medium: #5a5a5a;
-  --text-light: #8a8a8a;
+  --saffron-deep: #d97706;
+  --saffron-orange: #ea580c;
+  --warm-amber: #f59e0b;
+  --golden-yellow: #fbbf24;
+  --light-amber: #fcd34d;
+  --cream: #fef3c7;
+  --warm-sand: #fde68a;
+  --earth-brown: #92400e;
+  --soft-brown: #b45309;
+  --terracotta: #dc2626;
+  --burnt-sienna: #c2410c;
+  --slate: #78716c;
+  --off-white: #fffbeb;
+  --text-dark: #292524;
+  --text-medium: #57534e;
+  --text-light: #a8a29e;
 }
 
 /* Global Styles */
