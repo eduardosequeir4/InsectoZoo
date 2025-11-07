@@ -825,7 +825,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-card-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(45, 80, 22, 0.9), transparent 50%);
+  background: linear-gradient(to top, rgba(217, 119, 6, 0.9), transparent 50%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -841,7 +841,7 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-card-category {
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--light-sage);
+  color: var(--light-amber);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 0.5rem;
