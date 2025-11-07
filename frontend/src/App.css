@@ -702,14 +702,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .visit-info-card {
   background: white;
-  border: 1px solid rgba(107, 142, 95, 0.2);
+  border: 1px solid rgba(217, 119, 6, 0.2);
   border-radius: 12px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .visit-info-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(45, 80, 22, 0.12);
+  box-shadow: 0 8px 24px rgba(217, 119, 6, 0.12);
 }
 
 .visit-info-content {
