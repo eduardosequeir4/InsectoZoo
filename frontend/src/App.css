@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5, h6 {
 .feature-icon-wrapper {
   width: 64px;
   height: 64px;
-  background: linear-gradient(135deg, var(--sage-green), var(--forest-green));
+  background: linear-gradient(135deg, var(--warm-amber), var(--saffron-orange));
   border-radius: 12px;
   display: flex;
   align-items: center;
