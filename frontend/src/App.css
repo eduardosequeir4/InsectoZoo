@@ -956,7 +956,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-icon-wrapper {
   width: 64px;
   height: 64px;
-  background: linear-gradient(135deg, var(--light-sage), var(--sage-green));
+  background: linear-gradient(135deg, var(--golden-yellow), var(--saffron-orange));
   border-radius: 12px;
   display: flex;
   align-items: center;
