@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Cappas Insectozoo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M22 13h-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg>
+                <span class="logo-text">Cappas Insectozoo</span>
+            </a>
+            <nav class="desktop-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contacts.html" class="nav-link">Contacts</a>
+            </nav>
+            <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
+        </div>
+        <div class="mobile-nav" id="mobileNav" style="display: none;">
+            <a href="index.html" class="mobile-nav-link">Home</a>
+            <a href="about.html" class="mobile-nav-link">About</a>
+            <a href="gallery.html" class="mobile-nav-link active">Gallery</a>
+            <a href="contacts.html" class="mobile-nav-link">Contacts</a>
+        </div>
+    </header>
+
+    <div class="gallery-page">
+        <section class="gallery-header">
+            <div class="container-custom">
+                <h1 class="page-title">Gallery</h1>
+                <p class="page-subtitle">Explore our collection of stunning insect photography</p>
+            </div>
+        </section>
+
+        <section class="gallery-filters">
+            <div class="container-custom">
+                <div class="filter-buttons">
+                    <button class="filter-button active" onclick="filterGallery('All')">All</button>
+                    <button class="filter-button" onclick="filterGallery('Ants')">Ants</button>
+                    <button class="filter-button" onclick="filterGallery('Bees')">Bees</button>
+                    <button class="filter-button" onclick="filterGallery('Wasps')">Wasps</button>
+                    <button class="filter-button" onclick="filterGallery('Termites')">Termites</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-grid-section">
+            <div class="container-custom">
+                <div class="gallery-masonry">
+                    <div class="gallery-card" data-category="Ants" onclick="openModal('https://images.unsplash.com/photo-1641123721394-9ea744927e35?w=800&q=80', 'Ants', 'Ants working together on plant stems')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1641123721394-9ea744927e35?w=800&q=80" alt="Ants" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Ants</span>
+                                <p class="gallery-card-description">Ants working together on plant stems</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card" data-category="Ants" onclick="openModal('https://images.unsplash.com/photo-1570553613235-412575f3fb6a?w=800&q=80', 'Ants', 'Red ants in close-up macro photography')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1570553613235-412575f3fb6a?w=800&q=80" alt="Ants" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Ants</span>
+                                <p class="gallery-card-description">Red ants in close-up macro photography</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card" data-category="Ants" onclick="openModal('https://images.unsplash.com/photo-1588470045344-4393b295297c?w=800&q=80', 'Ants', 'Detailed view of an ant worker')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1588470045344-4393b295297c?w=800&q=80" alt="Ants" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Ants</span>
+                                <p class="gallery-card-description">Detailed view of an ant worker</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card" data-category="Bees" onclick="openModal('https://images.unsplash.com/photo-1647427062468-74ff21e8934f?w=800&q=80', 'Bees', 'Bees on honeycomb showing colony structure')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1647427062468-74ff21e8934f?w=800&q=80" alt="Bees" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Bees</span>
+                                <p class="gallery-card-description">Bees on honeycomb showing colony structure</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card" data-category="Bees" onclick="openModal('https://images.unsplash.com/photo-1581271064038-11cf1c43a0b2?w=800&q=80', 'Bees', 'Multiple bees working on honeycomb')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1581271064038-11cf1c43a0b2?w=800&q=80" alt="Bees" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Bees</span>
+                                <p class="gallery-card-description">Multiple bees working on honeycomb</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card" data-category="Wasps" onclick="openModal('https://images.unsplash.com/photo-1586943760662-9db9594a3a99?w=800&q=80', 'Wasps', 'Close-up view of a wasp')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1586943760662-9db9594a3a99?w=800&q=80" alt="Wasps" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Wasps</span>
+                                <p class="gallery-card-description">Close-up view of a wasp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card" data-category="Wasps" onclick="openModal('https://images.unsplash.com/photo-1504976462146-b05639c41c8c?w=800&q=80', 'Wasps', 'Wasp colony on their hive')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1504976462146-b05639c41c8c?w=800&q=80" alt="Wasps" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Wasps</span>
+                                <p class="gallery-card-description">Wasp colony on their hive</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-card" data-category="Termites" onclick="openModal('https://images.unsplash.com/photo-1612960891902-b525d250aa89?w=800&q=80', 'Termites', 'Termites in their natural environment')">
+                        <div class="gallery-card-image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1612960891902-b525d250aa89?w=800&q=80" alt="Termites" class="gallery-card-image">
+                            <div class="gallery-card-overlay">
+                                <span class="gallery-card-category">Termites</span>
+                                <p class="gallery-card-description">Termites in their natural environment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal" style="display: none;">
+        <div class="modal-backdrop" onclick="closeModal()"></div>
+        <div class="modal-content-wrapper">
+            <button class="modal-close-button" onclick="closeModal()">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+            <img id="modalImage" class="modal-image" src="" alt="">
+            <div class="modal-info">
+                <span id="modalCategory" class="modal-category"></span>
+                <p id="modalDescription" class="modal-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <svg class="footer-logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M22 13h-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg>
+                        <span class="footer-logo-text">Cappas Insectozoo</span>
+                    </div>
+                    <p class="footer-description">Discover the fascinating world of social insects in Vila Ruiva, Cuba, Portugal.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About</a></li>
+                        <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+                        <li><a href="contacts.html" class="footer-link">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Contact</h3>
+                    <ul class="footer-contact">
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <span>+351 XXX XXX XXX</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            <span>info@cappasinsectozoo.pt</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Vila Ruiva, Cuba, Portugal</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Visit Hours</h3>
+                    <p class="footer-hours">Open 7 days a week</p>
+                    <p class="footer-hours-note">By reservation only</p>
+                    <p class="footer-hours-details">Perfect for families and small groups (up to 15 people)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 Cappas Insectozoo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
