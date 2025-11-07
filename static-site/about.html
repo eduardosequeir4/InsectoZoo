@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Cappas Insectozoo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Include header similar to index.html but change active class -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M22 13h-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg>
+                <span class="logo-text">Cappas Insectozoo</span>
+            </a>
+            <nav class="desktop-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contacts.html" class="nav-link">Contacts</a>
+            </nav>
+            <button class="mobile-menu-button" onclick="toggleMobileMenu()">
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </button>
+        </div>
+        <div class="mobile-nav" id="mobileNav" style="display: none;">
+            <a href="index.html" class="mobile-nav-link">Home</a>
+            <a href="about.html" class="mobile-nav-link active">About</a>
+            <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+            <a href="contacts.html" class="mobile-nav-link">Contacts</a>
+        </div>
+    </header>
+
+    <div class="about-page">
+        <section class="about-hero">
+            <div class="about-hero-overlay"></div>
+            <div class="about-hero-content">
+                <h1 class="page-title">About Cappas Insectozoo</h1>
+                <p class="page-subtitle">Where nature's tiniest engineers come to life</p>
+            </div>
+        </section>
+
+        <section class="about-content-section">
+            <div class="container-custom">
+                <div class="about-intro">
+                    <h2 class="section-title">Welcome to Our Museum</h2>
+                    <p class="about-text">Located in the charming village of Vila Ruiva, Cuba, Portugal, Cappas Insectozoo is a unique living museum dedicated to the fascinating world of social insects. Our facility houses active colonies of ants, bees, wasps, and termites, offering visitors an unprecedented opportunity to observe these incredible creatures in carefully maintained habitats.</p>
+                    <p class="about-text">Whether you're a curious child, a nature enthusiast, or a researcher, our museum provides an educational and engaging experience that reveals the complex social structures and behaviors of these often-overlooked members of our ecosystem.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-card-content">
+                            <div class="feature-icon-wrapper">
+                                <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M22 13h-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg>
+                            </div>
+                            <h3 class="feature-title">Living Collections</h3>
+                            <p class="feature-description">Our museum features active, living colonies of four types of social insects: ants, bees, wasps, and termites.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-content">
+                            <div class="feature-icon-wrapper">
+                                <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <h3 class="feature-title">Educational Experience</h3>
+                            <p class="feature-description">Perfect for families, school groups, and nature enthusiasts. Learn about insect behavior and ecology.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-content">
+                            <div class="feature-icon-wrapper">
+                                <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m16 6 4 14"/><path d="M12 6v14"/><path d="M8 8v12"/><path d="M4 4v16"/></svg>
+                            </div>
+                            <h3 class="feature-title">Expert Guidance</h3>
+                            <p class="feature-description">Our knowledgeable staff provides insights into the fascinating world of social insects.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card-content">
+                            <div class="feature-icon-wrapper">
+                                <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                            </div>
+                            <h3 class="feature-title">Conservation Focus</h3>
+                            <p class="feature-description">We promote understanding and appreciation of insects and their vital role in our ecosystems.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mission-section">
+                    <div class="mission-card">
+                        <div class="mission-content">
+                            <h2 class="mission-title">Our Mission</h2>
+                            <p class="mission-text">At Cappas Insectozoo, we believe that understanding and appreciating insects is essential for environmental education and conservation. Our mission is to inspire curiosity, foster learning, and promote respect for all living creatures, no matter how small.</p>
+                            <p class="mission-text">Through hands-on observation and expert interpretation, we aim to bridge the gap between humans and the insect world, revealing the remarkable intelligence, cooperation, and ingenuity of social insect colonies.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="visit-info-section">
+                    <h2 class="section-title">Visit Information</h2>
+                    <div class="visit-info-grid">
+                        <div class="visit-info-card">
+                            <div class="visit-info-content">
+                                <h3 class="visit-info-title">Location</h3>
+                                <p class="visit-info-text">Vila Ruiva, Cuba, Portugal</p>
+                            </div>
+                        </div>
+                        <div class="visit-info-card">
+                            <div class="visit-info-content">
+                                <h3 class="visit-info-title">Availability</h3>
+                                <p class="visit-info-text">7 days a week, by reservation only</p>
+                            </div>
+                        </div>
+                        <div class="visit-info-card">
+                            <div class="visit-info-content">
+                                <h3 class="visit-info-title">Group Size</h3>
+                                <p class="visit-info-text">Perfect for families or groups up to 15 people</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <svg class="footer-logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m8 2 1.88 1.88"/><path d="M14.12 3.88 16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M22 13h-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg>
+                        <span class="footer-logo-text">Cappas Insectozoo</span>
+                    </div>
+                    <p class="footer-description">Discover the fascinating world of social insects in Vila Ruiva, Cuba, Portugal.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About</a></li>
+                        <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+                        <li><a href="contacts.html" class="footer-link">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Contact</h3>
+                    <ul class="footer-contact">
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            <span>+351 XXX XXX XXX</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            <span>info@cappasinsectozoo.pt</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <svg class="footer-contact-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <span>Vila Ruiva, Cuba, Portugal</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Visit Hours</h3>
+                    <p class="footer-hours">Open 7 days a week</p>
+                    <p class="footer-hours-note">By reservation only</p>
+                    <p class="footer-hours-details">Perfect for families and small groups (up to 15 people)</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 Cappas Insectozoo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
